@@ -13,5 +13,12 @@ console.log('ok js');
 // 4) aggiungo testo+21
 // 5) risultato
 
-const Name = prompt('Come ti chiami?')
+
+// recupero nome
+const Name = prompt('Qual è il tuo nome?')
 console.log(Name)
+
+// recupero cognome
+
+const Surname = prompt('Qual è il tuo cognome?')
+console.log(Surname)
