@@ -12,3 +12,6 @@ console.log('ok js');
 // 3) recupero l'età dall'utente
 // 4) aggiungo testo+21
 // 5) risultato
+
+const Name = prompt('Come ti chiami?')
+console.log(Name)
