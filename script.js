@@ -34,4 +34,4 @@ const password = document.getElementById('password');
 console.log(password);
 
 // stampo e aggiungo 21 nel testo
-password.innerHTML = `La tua password è:  ${Name}${Surname}${favouriteColor}21`;
+password.innerHTML = `La tua password è:  <strong>${Name}${Surname}${favouriteColor}21</strong>`;

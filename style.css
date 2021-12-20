@@ -1,20 +1,36 @@
+body {
+    background-color: cornsilk;
+}
+
 .container {
     height: 100vh;
 }
 
 .password-generator {
-    background: #25FF00;
+    background: #0954cc;
     border: 2px solid black;
     padding: 10px;
-}
-
-.p-g-box {
-    background: #25FF00;
-    position: absolute;
-    border: 2px solid black;
-    padding: 10px;
+    color: #0954cc;
 }
 
 .icon {
     font-size: 50px
+}
+
+.password-generator:hover {
+    color: #000000;
+}
+
+.arrow-right {
+    animation: rightArrow 5s infinite;
+    transition: 2s;
+}
+
+@keyframes rightArrow {
+    from {
+        left: -20px;
+    }
+    to {
+        left: 0px;
+    }
 }
